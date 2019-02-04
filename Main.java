@@ -9,7 +9,9 @@ import java.nio.file.*;
 
 class Main {
 public static void main(String[] args) throws Exception {
- CMUList test = new CMUList();
+ //prototype
+
+    CMUList test = new CMUList();
   String input = readFile("Poem", StandardCharsets.UTF_8);
   //String unknown = readFile("Unknown", StandardCharsets.UTF_8);
   String newLine = System.getProperty("line.separator");
